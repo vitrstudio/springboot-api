@@ -19,3 +19,12 @@ jwt:
     expiration: 900000 # 15 minutes
   refresh-token:
     expiration: 7776000000 # 90 days
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    operationsSorter: method
+    tagsSorter: alpha
